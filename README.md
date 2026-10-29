@@ -12,7 +12,7 @@ docs/
   glossary.md        # domain and project terms
   principles/        # conceptual: design philosophy, observability, refactoring
   guides/            # instructional: API, schemas, repository, service layer, testing, infra
-  adr/               # architecture decision records
+  decisions/         # why X was chosen over Y, one file per decision
   specs/             # feature specs and technical specs
 ideas/               # product ideas to test and validate
 reference/           # one small, complete "golden path" feature

@@ -1,6 +1,6 @@
-# ADR-NNNN: <title>
+# NNNN: <title>
 
-- Status: <!-- proposed | accepted | superseded by ADR-XXXX -->
+- Status: <!-- proposed | accepted | superseded by NNNN -->
 - Date: <!-- YYYY-MM-DD -->
 
 ## Context
