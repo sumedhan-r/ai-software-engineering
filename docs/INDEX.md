@@ -8,7 +8,7 @@
 | Doc | Read when |
 | --- | --- |
 | [design-philosophy.md](principles/design-philosophy.md) |  |
-| [observability.md](principles/observability.md) |  |
+| [observability.md](principles/observability.md) | Adding or changing logging, tracing, metrics or alerts. Deeper notes in [observability/](principles/observability/). |
 | [refactoring.md](principles/refactoring.md) |  |
 
 ## Guides (instructional)
