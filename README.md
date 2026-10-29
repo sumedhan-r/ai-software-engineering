@@ -15,9 +15,9 @@ docs/
   decisions/         # why X was chosen over Y, one file per decision
   specs/             # feature specs and technical specs
 ideas/               # product ideas to test and validate
-reference/           # one small, complete "golden path" feature
-  src/
-  tests/
+reference/           # one small, complete "golden path" backend feature (Python src/ layout)
+  src/app/           # core, models, routes, repositories, interfaces, connectors, ...
+  tests/             # unit/ and integration/
 infra/
   compose/           # local deployment with Docker Compose
   helm/              # Kubernetes deployment (later)
