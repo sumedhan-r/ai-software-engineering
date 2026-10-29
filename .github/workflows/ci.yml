@@ -1,0 +1,21 @@
+# Stack-agnostic placeholder. Replace each step once the stack is chosen.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint
+        run: echo "TODO: add lint command"
+      - name: Type check
+        run: echo "TODO: add type check command"
+      - name: Architecture tests
+        run: echo "TODO: add architecture tests"
+      - name: Tests
+        run: echo "TODO: add test command"
