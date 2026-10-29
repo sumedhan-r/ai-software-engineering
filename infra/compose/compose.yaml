@@ -1,0 +1,3 @@
+# Local deployment. Placeholder until the stack is chosen.
+# Add the app service and its dependencies (database, cache, etc.) here.
+services: {}
