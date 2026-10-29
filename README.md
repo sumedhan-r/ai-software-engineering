@@ -16,7 +16,7 @@ docs/
   specs/             # feature specs and technical specs
 ideas/               # product ideas to test and validate
 reference/           # one small, complete "golden path" backend feature (Python src/ layout)
-  src/app/           # core, models, routes, repositories, interfaces, connectors, ...
+  src/app/           # core, models, routes, services, repositories, interfaces, connectors
   tests/             # unit/ and integration/
 infra/
   compose/           # local deployment with Docker Compose
