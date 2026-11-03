@@ -21,6 +21,7 @@
 | [service-layer.md](guides/service-layer.md) |  |
 | [testing.md](guides/testing.md) |  |
 | [infra.md](guides/infra.md) |  |
+| [contributing.md](guides/contributing.md) | Writing a PR description for this repo. |
 
 ## Decisions
 
