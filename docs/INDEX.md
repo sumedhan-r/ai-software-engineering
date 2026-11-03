@@ -7,7 +7,7 @@
 
 | Doc | Read when |
 | --- | --- |
-| [design-philosophy.md](principles/design-philosophy.md) |  |
+| [design-philosophy.md](principles/design-philosophy.md) | Writing or reviewing any source code outside of tests. |
 | [observability.md](principles/observability.md) | Adding or changing logging, tracing, metrics or alerts. Deeper notes in [observability/](principles/observability/). |
 | [refactoring.md](principles/refactoring.md) |  |
 
