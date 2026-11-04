@@ -9,7 +9,7 @@
 | --- | --- |
 | [design-philosophy.md](principles/design-philosophy.md) | Writing or reviewing any source code outside of tests. |
 | [observability.md](principles/observability.md) | Adding or changing logging, tracing, metrics or alerts. Deeper notes in [observability/](principles/observability/). |
-| [refactoring.md](principles/refactoring.md) |  |
+| [refactoring.md](principles/refactoring.md) | Restructuring existing code, removing duplication, or moving logic between modules. |
 
 ## Guides (instructional)
 
