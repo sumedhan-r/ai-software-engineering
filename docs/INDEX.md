@@ -8,6 +8,7 @@
 | Doc | Read when |
 | --- | --- |
 | [design-philosophy.md](principles/design-philosophy.md) |  |
+| [domain-modeling.md](principles/domain-modeling.md) | Adding or changing domain models, business rules, or names for business concepts. |
 | [observability.md](principles/observability.md) | Adding or changing logging, tracing, metrics or alerts. Deeper notes in [observability/](principles/observability/). |
 | [refactoring.md](principles/refactoring.md) |  |
 
