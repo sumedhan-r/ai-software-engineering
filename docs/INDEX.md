@@ -7,6 +7,7 @@
 
 | Doc | Read when |
 | --- | --- |
+| [architecture.md](principles/architecture.md) | Adding a module, calling an external system, adding config, or changing startup, shutdown or deployment. |
 | [design-philosophy.md](principles/design-philosophy.md) |  |
 | [observability.md](principles/observability.md) | Adding or changing logging, tracing, metrics or alerts. Deeper notes in [observability/](principles/observability/). |
 | [refactoring.md](principles/refactoring.md) |  |
