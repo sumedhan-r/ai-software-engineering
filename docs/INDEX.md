@@ -28,4 +28,6 @@ One file per decision, numbered in order (`0001-short-title.md`). Each records w
 
 ## Specs
 
-See [specs/](specs/). Start from [feature-spec-template.md](specs/feature-spec-template.md), then [tech-spec-template.md](specs/tech-spec-template.md).
+See [specs/](specs/). A product starts from [product-brief-template.md](specs/product-brief-template.md), filled in by the requester and developer. Each feature then gets a [feature-spec-template.md](specs/feature-spec-template.md), then a [tech-spec-template.md](specs/tech-spec-template.md).
+
+Read a product brief only when a spec leaves the scope, a deliverable or a boundary agreement unclear.
