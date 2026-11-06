@@ -22,7 +22,7 @@ infra/
   compose/           # local deployment with Docker Compose
   helm/              # Kubernetes deployment (later)
 scripts/             # helper scripts
-.claude/commands/    # reusable prompts as slash commands
+.claude/skills/      # repeatable procedures, loaded by agents when a task matches
 .github/workflows/   # CI
 ```
 
