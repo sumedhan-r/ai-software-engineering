@@ -25,6 +25,8 @@
 
 <!-- Short, non-negotiable rules. One line each. Link to the doc that explains why. -->
 
+- Check the product's guardrails (`docs/specs/<product>-guardrails.md`) at every stage: specs, code, review and operations. Its "When to check" table says which sections apply. Cite the rule IDs a change touches. If a gap is found, propose a new rule instead of working around it.
+
 ## Doc index
 
 <!-- Which doc to read for which kind of task. See docs/INDEX.md for the full map. -->
