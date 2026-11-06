@@ -45,8 +45,19 @@
 
 ## Dependability
 
-<!-- Product-specific only: availability, reliability, safety, security and
-     resilience targets, and how each dependency failure is handled (timeout,
-     retry, fallback). General rules live in principles/; observability.md
-     covers the signals.
-     DEP-1: <rule>. Signal: <metric, trace or alert that shows it holds> -->
+<!-- Product-specific targets only; general rules stay in principles/
+     (e.g. observability.md, design-philosophy.md). Keep all seven rows:
+     write "n/a: <reason>" instead of deleting one, so a skipped attribute
+     is a visible choice. Add DEP-n rows under an attribute as needed;
+     each names the signal that shows it holds. Specs and reviews check
+     only the rows a change touches. -->
+
+| ID | Attribute | Rule | Signal |
+| --- | --- | --- | --- |
+| DEP-1 | Availability |  |  |
+| DEP-2 | Reliability |  |  |
+| DEP-3 | Maintainability |  |  |
+| DEP-4 | Safety |  |  |
+| DEP-5 | Confidentiality |  |  |
+| DEP-6 | Integrity |  |  |
+| DEP-7 | Observability |  |  |
