@@ -3,11 +3,22 @@
 - Owner: <!-- developer -->
 - Brief: <!-- link to product brief -->
 
-<!-- Owned and kept current by the developer. Agents read this before writing
-     or reviewing code for this product, so keep it short and checkable:
-     each rule should be something a diff can be checked against.
+<!-- Owned and kept current by the developer. Short, checkable rules: each one
+     should be something a spec or a diff can be checked against.
      Changing or removing a rule goes through a PR; reversing one gets a
      decision record. -->
+
+## When to check
+
+<!-- Each stage reads only the sections it needs. A gap found at any stage
+     becomes a new rule here, so the next pass catches it. -->
+
+| Stage | Check | Feeds back |
+| --- | --- | --- |
+| Feature spec | Intent, Behaviours | A conflict with a rule, or a new behaviour to add |
+| Tech spec | Design and layout, Boundaries, Reliability and observability | A boundary or contract change, a new signal or failure mode |
+| Coding and review | All sections | Rule IDs touched, listed in the PR |
+| Operating (incidents, alerts, SLO misses) | Reliability and observability, Behaviours | A rule that would have caught it |
 
 ## Intent
 
@@ -31,3 +42,10 @@
 | Component | Owns | May use | Must not use | Contract |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
+
+## Reliability and observability
+
+<!-- Product-specific only; general rules live in principles/observability.md.
+     Targets (SLOs), paths that must be traced, how each dependency failure
+     is handled (timeout, retry, fallback).
+     REL-1: <rule>. Signal: <metric, trace or alert that shows it holds> -->
