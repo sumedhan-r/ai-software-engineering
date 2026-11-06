@@ -1,44 +1,23 @@
 # Product brief: <name>
 
 - Requester: <!-- name, role -->
-- Developer: <!-- name -->
 - Date: <!-- YYYY-MM-DD -->
 
-<!-- Owned by the requester or domain expert: what the product must do, in
-     plain language, about one page. The developer's rules for building it
-     live in the guardrails doc, not here.
+<!-- Owned by the requester. Plain language, no technical detail: how it gets
+     built is the developer's concern and lives in the guardrails doc.
      Agents do not load this by default; specs and guardrails link to it. -->
 
-## Problem
+## Goal
 
-<!-- Who has the problem, and how do they handle it today? -->
+<!-- What the product is for, in a sentence or two. -->
 
-## Scope
+## Deliverables
 
-<!-- In: what the product must do. Out: what it will not do, for now. -->
-
-## Key deliverables
-
-<!-- Numbered so specs can point back to them. -->
+<!-- What you get from it. Numbered so specs can point back to them. -->
 
 - D-1:
 - D-2:
 
-## Expected behaviours
+## Habits
 
-<!-- For each deliverable: what a user does and what they should see happen. -->
-
-## Design ideas and layout
-
-<!-- Screens, flows, sketches or links to them. -->
-
-## Dependencies and boundaries
-
-<!-- Systems, services or teams this relies on, and what each side owns or
-     has agreed to provide. -->
-
-## Constraints
-
-<!-- Deadlines, budget, platforms, compliance. -->
-
-## Success looks like
+<!-- What people will start doing, or do differently, because they use it. -->

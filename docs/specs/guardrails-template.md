@@ -16,9 +16,9 @@
 | Stage | Check | Feeds back |
 | --- | --- | --- |
 | Feature spec | Intent, Behaviours | A conflict with a rule, or a new behaviour to add |
-| Tech spec | Design and layout, Boundaries, Reliability and observability | A boundary or contract change, a new signal or failure mode |
+| Tech spec | Design and layout, Boundaries, Dependability | A boundary or contract change, a new signal or failure mode |
 | Coding and review | All sections | Rule IDs touched, listed in the PR |
-| Operating (incidents, alerts, SLO misses) | Reliability and observability, Behaviours | A rule that would have caught it |
+| Operating (incidents, alerts, SLO misses) | Dependability, Behaviours | A rule that would have caught it |
 
 ## Intent
 
@@ -43,9 +43,10 @@
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
 
-## Reliability and observability
+## Dependability
 
-<!-- Product-specific only; general rules live in principles/observability.md.
-     Targets (SLOs), paths that must be traced, how each dependency failure
-     is handled (timeout, retry, fallback).
-     REL-1: <rule>. Signal: <metric, trace or alert that shows it holds> -->
+<!-- Product-specific only: availability, reliability, safety, security and
+     resilience targets, and how each dependency failure is handled (timeout,
+     retry, fallback). General rules live in principles/; observability.md
+     covers the signals.
+     DEP-1: <rule>. Signal: <metric, trace or alert that shows it holds> -->

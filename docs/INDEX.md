@@ -28,6 +28,6 @@ One file per decision, numbered in order (`0001-short-title.md`). Each records w
 
 ## Specs
 
-See [specs/](specs/). A product starts from [product-brief-template.md](specs/product-brief-template.md), owned by the requester or domain expert. The developer turns it into [guardrails-template.md](specs/guardrails-template.md): intent, design and layout, behaviours, boundaries, and reliability and observability rules, checked at every stage from spec to operations. Each feature then gets a [feature-spec-template.md](specs/feature-spec-template.md), then a [tech-spec-template.md](specs/tech-spec-template.md).
+See [specs/](specs/). A product starts from [product-brief-template.md](specs/product-brief-template.md), owned by the requester: the goal, deliverables and habits it should build. The developer turns it into [guardrails-template.md](specs/guardrails-template.md): intent, design and layout, behaviours, boundaries and dependability rules, checked at every stage from spec to operations. Each feature then gets a [feature-spec-template.md](specs/feature-spec-template.md), then a [tech-spec-template.md](specs/tech-spec-template.md).
 
-Check a product's guardrails at each stage, using its "When to check" table. Read its brief only when a spec leaves the scope, a deliverable or a boundary agreement unclear.
+Check a product's guardrails at each stage, using its "When to check" table. Read its brief only when a spec leaves the goal or a deliverable unclear.
