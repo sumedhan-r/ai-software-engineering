@@ -4,9 +4,10 @@
 - Developer: <!-- name -->
 - Date: <!-- YYYY-MM-DD -->
 
-<!-- Written for people: the requester states what they want, the developer
-     records what was agreed. Plain language, about one page.
-     Agents do not load this by default; feature and tech specs link to it. -->
+<!-- Owned by the requester or domain expert: what the product must do, in
+     plain language, about one page. The developer's rules for building it
+     live in the guardrails doc, not here.
+     Agents do not load this by default; specs and guardrails link to it. -->
 
 ## Problem
 
@@ -41,8 +42,3 @@
 <!-- Deadlines, budget, platforms, compliance. -->
 
 ## Success looks like
-
-## Developer notes
-
-<!-- The developer's intent and any agreements reached with the requester.
-     A choice that later code depends on becomes a decision record; link it here. -->
