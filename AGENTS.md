@@ -25,6 +25,10 @@
 
 <!-- Short, non-negotiable rules. One line each. Link to the doc that explains why. -->
 
+## Skills
+
+Repeatable procedures live in [.claude/skills/](.claude/skills/README.md). Use the matching skill when a task fits its description.
+
 ## Doc index
 
 <!-- Which doc to read for which kind of task. See docs/INDEX.md for the full map. -->
