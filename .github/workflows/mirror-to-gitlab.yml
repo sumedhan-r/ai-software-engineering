@@ -12,4 +12,4 @@ jobs:
         run: |
           git clone --bare https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git repo
           cd repo
-          git push --mirror https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/sumedhan/ai-software-engineering.git
+          git push --mirror https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/sumedhan-group/ai-software-engineering.git
