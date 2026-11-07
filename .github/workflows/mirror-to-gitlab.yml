@@ -1,0 +1,15 @@
+name: Mirror to GitLab
+
+on:
+  push:
+  delete:
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mirror
+        run: |
+          git clone --bare https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git repo
+          cd repo
+          git push --mirror https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/sumedhan/ai-software-engineering.git
